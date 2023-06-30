@@ -1,0 +1,131 @@
+#root {
+  /* max-width: 1280px; */
+  width: 100%;
+  /* margin-top: -36%; */
+  /* position: absolute; */
+  /* margin: 0 auto; */
+  /* padding: 2rem; */
+  /* text-align: center; */
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logoPerfil {
+  height: 20em;
+  padding: 5.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logoPerfil:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.tamanhoIcon {
+  width: 120px;
+}
+
+/*.fundoHome {
+  /* background-color: rgb(229, 171, 79);
+  background-image: ; */
+/* position: absolute;
+  width: 100%;
+  height: 50%;
+  color: black;
+  text-align: center; */
+/* border-radius: 40%; */
+/* width: 45vw;
+  height: 45vh; */
+.title {
+  position: absolute;
+  top: 35%;
+  margin-left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 100px;
+  text-align: center;
+  /* Outros estilos que você desejar aplicar ao título */
+  /* font-family: 'Dancing Script', cursive; */
+}
+
+.title2 {
+  position: absolute;
+  top: 55%;
+  margin-left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 75px;
+  text-align: center;
+  /* Outros estilos que você desejar aplicar ao título */
+  /* font-family: 'Dancing Script', cursive; */
+}
+
+.title3 {
+  position: absolute;
+  top: 80%;
+  margin-left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 50px;
+  /* Outros estilos que você desejar aplicar ao título */
+}
+
+
+
+.contato {
+  position: absolute;
+  top: 75%;
+  margin-left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: black;
+  /* Outros estilos que você desejar aplicar ao título */
+  /* font-family: 'Dancing Script', cursive; */
+}
+
+
+.background-image {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  filter: blur(5px);
+}
