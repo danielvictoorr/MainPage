@@ -93,10 +93,11 @@ function App() {
           </TabPanel >
           <TabPanel value={value} index={1}>
             <div className='formacao'>
-              <ul>
-                <li>Tecnico em informatica para web- IFNMG (formado em 2016)</li>
-                <li>Engenharia de controle e automação- CEFET-MG (Previsão de formação 2024)</li>
-              </ul>
+              <h4>Tecnico em informatica para web- IFNMG (formado em 2016)</h4>
+              <p className='mt-5'>Durante meu ensino médio realizei de forma integrada o curso tecnico em informatica com foco no desenvolvimento web.</p>
+              <p className='mt-0'>O curso teve como foco a parte de redes de computadores e a programção web. Durante o curso estudei os protocolos de redes, como realizar a estrturação de uma rede,estudei também HTML,CSS,PHP e JS.</p>
+              {/* <li>Engenharia de controle e automação- CEFET-MG (Previsão de formação 2024)</li> */}
+
             </div>
           </TabPanel>
           <TabPanel value={value} index={2}>
