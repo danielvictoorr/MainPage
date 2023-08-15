@@ -84,7 +84,7 @@ function App() {
               <h2 className='title2 mt-4'>Software Denveloper</h2>
               <h3 className='contato'>Contato</h3>
               <div className='title3'>
-                <a href="https://www.linkedin.com/in/daniel-victor-nunes-dos-santos-a11024173/" target="_blank" rel="noopener noreferrer" > <LinkedInIcon color="primary" className='tamanhoIcon' /></a>
+                <a href="https://www.linkedin.com/in/daniel-victor-nunes-dos-santos-a11024173/" target="_blank" rel="noopener noreferrer" > <LinkedInIcon color="" className='tamanhoIcon' /></a>
                 <a href="#" target="_blank" rel="noopener noreferrer" > <GitHubIcon color="" className='tamanhoIcon' /></a>
                 <a href="#" target="_blank" rel="noopener noreferrer" > <InstagramIcon color="" className='tamanhoIcon ' /></a>
               </div>
@@ -93,8 +93,8 @@ function App() {
           </TabPanel >
           <TabPanel value={value} index={1}>
             <div className='formacao'>
-              <h4>Tecnico em informatica para web- IFNMG (formado em 2016)</h4>
-              <p className='mt-5'>Durante meu ensino médio realizei de forma integrada o curso tecnico em informatica com foco no desenvolvimento web.</p>
+              <strong><p className=''>Tecnico em informatica para web- IFNMG (formado em 2016)</p></strong>
+              <p className='mt-2 '>Durante meu ensino médio realizei de forma integrada o curso tecnico em informatica com foco no desenvolvimento web.</p>
               <p className='mt-0'>O curso teve como foco a parte de redes de computadores e a programção web. Durante o curso estudei os protocolos de redes, como realizar a estrturação de uma rede,estudei também HTML,CSS,PHP e JS.</p>
               {/* <li>Engenharia de controle e automação- CEFET-MG (Previsão de formação 2024)</li> */}
 
